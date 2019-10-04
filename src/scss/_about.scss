@@ -1,0 +1,20 @@
+.about-section {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  .about-text {
+    padding: 3rem;
+    font-size: 90%;
+    @media (min-width: 992px) {
+      padding: 5rem;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 100%;
+      }
+    }
+  }
+  p {
+    margin-bottom: 5rem;
+  }
+}
